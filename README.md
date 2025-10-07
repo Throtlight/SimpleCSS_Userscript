@@ -1,11 +1,11 @@
 # SimpleCSS
 ![LiteRender Logo](logo.png)
-🚀 **SimpleCSS** is a user script designed to boost web page rendering performance by optimizing animations, disabling heavy CSS effects, compressing images, and rasterizing SVG images to a fixed 512x512 WebP format. Speed up page loading and reduce browser resource usage!
+🚀 **SimpleCSS** is a user script designed to boost web page rendering performance by optimizing animations, disabling heavy CSS effects, compressing images, and rasterizing SVG images to a WebP format. Speed up page loading and reduce browser resource usage!
 
 ## ✨ Features
 - **Optimized CSS Effects**: Disables resource-intensive CSS effects like transitions, filters, shadows, and more for enhanced performance.
 - **Adaptive Image Compression**: Automatically compresses images to WebP format with quality settings based on size (from 0.35 to 0.9).
-- **SVG Rasterization**: Converts SVG images to WebP with a maximum size of 512x512 for faster rendering.
+- **SVG Rasterization**: Converts SVG images to WebP for faster rendering.
 - **Dynamic Processing**: Handles both existing and dynamically added images using MutationObserver.
 - **Universal Compatibility**: Works on any website with `@match *://*/*`.
 
